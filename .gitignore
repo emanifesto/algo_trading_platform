@@ -29,3 +29,4 @@ strategy*
 .claude
 .cursor
 /*.json
+__pycache__
