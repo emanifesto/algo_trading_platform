@@ -1,11 +1,9 @@
-import { useState } from 'react'
+import Chart from './chart.tsx'
 
 function App() {
-  
   return (
     <>
-      <div id='container' className='w-[100vw] h-[100vh]'>
-      </div>
+      <Chart/>
     </>
   )
 }
