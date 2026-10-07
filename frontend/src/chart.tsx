@@ -22,7 +22,7 @@ export default function Chart(){
 
     useEffect(() => {
         // const container = chartContainerRef.current
-        const chart = createChart('chartContainer')
+        const chart = createChart('chartContainer', {autoSize: true})
         if (data){
             const candles = chart.addSeries(CandlestickSeries)
             candles.setData(data)
